@@ -1,0 +1,15 @@
+/* Style for the selected card */
+
+.selected-card {
+    background-color: #f6ae22;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Hover effect for all cards */
+
+.card:hover {
+    background-color: #f6ae22;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}

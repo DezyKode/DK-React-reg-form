@@ -1,0 +1,85 @@
+/* Reset some default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li a svg {
+    margin-right: 8px;
+}
+
+
+/* Menu toggle button */
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    width: 30px;
+    height: 4px;
+    margin: 5px 0;
+    background-color: white;
+}
+
+
+/* Responsive styles for mobile view */
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+    .nav.open {
+        display: block;
+    }
+    .nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    .nav ul li {
+        margin: 10px 0;
+    }
+    /* Show the toggle button on mobile */
+    .menu-toggle {
+        display: flex;
+    }
+}

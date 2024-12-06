@@ -1,0 +1,124 @@
+/* Footer container */
+.footer {
+    background-color: #272425;
+    color: #eeeeee;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-address {
+    flex: 1;
+    text-align: left;
+    margin-right: 20px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #eeeeee;
+    margin-left: 15px;
+    font-size: 18px;
+  }
+  
+  .social-links a:hover {
+    color: #f6ae22;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .social-links {
+      justify-content: center;
+      margin-top: 10px;
+    }
+  
+    .footer-address {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+
+  /* icon styling */
+  /* Footer container */
+.footer {
+    background-color: #272425;
+    color: #eeeeee;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-address {
+    flex: 1;
+    text-align: left;
+    margin-right: 20px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #eeeeee;
+    margin-left: 15px;
+    font-size: 24px;  /* Adjust icon size */
+  }
+  
+  /* Add hover effect */
+  .social-links a:hover {
+    color: #f6ae22;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .social-links {
+      justify-content: center;
+      margin-top: 10px;
+    }
+  
+    .footer-address {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
